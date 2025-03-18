@@ -7,7 +7,7 @@ export const NavBar = () => {
 
   const logOutUser = () => {
     localStorage.removeItem("adminId");
-    window.location.reload();
+    // window.location.reload();
   };
 
   return (
